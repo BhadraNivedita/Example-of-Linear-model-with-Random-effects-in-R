@@ -1,4 +1,4 @@
-# Example-of-Linear-model-with-Random-effects
+# Linear model with Random effects
 
 A linear model with random effects, often referred to as a linear mixed-effects model or simply a mixed model, is a statistical modeling approach used for analyzing data with hierarchical or clustered structures. It combines both fixed effects and random effects to account for variability in the data due to both systematic (fixed) factors and random factors associated with groups or clusters within the data.
 
