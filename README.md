@@ -39,5 +39,7 @@ summ(model)
 j <- summ(model, digits = 3)
 model_summary<-as.data.frame(j$coeftable)
 
+One can extract random effect also with the command: j$rcoeftable
+
 ```
 
