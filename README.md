@@ -34,6 +34,10 @@ Some example codes in R for a linear model with random effects have been added t
 library(lme4)
 library(jtools)
 model <- lmer(Reaction ~ Days + (Days | Subject), sleepstudy)
-summ(model) 
+summ(model)
+
+j <- summ(model, digits = 3)
+model_summary<-as.data.frame(j$coeftable)
+
 ```
 
