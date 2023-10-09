@@ -30,10 +30,10 @@ Some example codes in R for a linear model with random effects have been added t
 
 
 ### Some tricks to extract fixed effect coefficients from lmer function in R.
-''' 
+```
 library(lme4)
 library(jtools)
 model <- lmer(Reaction ~ Days + (Days | Subject), sleepstudy)
 summ(model) 
-'''
+```
 
